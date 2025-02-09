@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/data")
     public String getData() {
-        return "AWS CodePipeline demo from KubensLearn";
+        return "AWS CodePipeline demo from KubensLearn for Dec-Batch";
     }
 
     @GetMapping("/message")
